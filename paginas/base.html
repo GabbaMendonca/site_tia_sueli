@@ -1,0 +1,41 @@
+{%load static%}
+
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% block 'titulo' %}{% endblock %}</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+    <!-- CSS para mudar o cor do bg do site -->
+    <style>
+        .hero.is-primary {
+            background-color: #d35f5f;
+        }
+    </style>
+    <!-- Fim CSS bg do site -->
+
+    <!-- CSS para o slide_show -->
+    <link rel="stylesheet" href="{% static 'slide_show/css/slide.css'%}">
+    <!-- Fim CSS slide_show -->
+</head>
+
+<body>
+
+    {% block 'conteudo' %}{% endblock %}
+
+    <!-- Configura o menu resposivo da navbar -->
+    <script type="text/javascript" src="{% static 'js/nav_responsivo.js'%}"></script>
+    <!-- Fim navbar -->
+
+    <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
+    <script type="text/javascript" src="{% static 'slide_show/js/config_slide_show.js'%}"></script>
+    <!-- End SlidesJS Required -->
+
+</body>
+
+</html>
