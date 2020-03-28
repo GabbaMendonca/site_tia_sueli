@@ -7,6 +7,9 @@ from django.core.mail import send_mail
 def index(request):
     return render(request, 'website/index.html')
 
+def contato(request):
+    return render(request, 'website/contato.html')
+
 def enviar(request):
     if request.method != 'POST':
         raise Http404()

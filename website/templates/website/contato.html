@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block 'titulo' %}Sueli Mendonça{% endblock %}
+
+{% block 'conteudo' %}
+
+{% include 'parciais/_mapa.html'%}
+
+<!----- contact-form ------>
+<div class="contact-form">
+        <form>
+            <div class="contact-form-row">
+                <div>
+                    <span>Name :</span>
+                    <input type="text" class="text" value="Your Name here" onfocus="this.value = '';"
+                        onblur="if (this.value == '') {this.value = 'Your Name here';}">
+                </div>
+                <div>
+                    <span>Email :</span>
+                    <input type="text" class="text" value="Your Email here" onfocus="this.value = '';"
+                        onblur="if (this.value == '') {this.value = 'Your Email here';}">
+                </div>
+                <div>
+                    <span>Subject :</span>
+                    <input type="text" class="text" value="Subject" onfocus="this.value = '';"
+                        onblur="if (this.value == '') {this.value = 'Subject';}">
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+            <div class="clearfix"> </div>
+            <div class="contact-form-row2">
+                <span>Message :</span>
+                <textarea> </textarea>
+            </div>
+            <input type="submit" value="send">
+        </form>
+    </div>
+    <!----- contact-form ------>
+
+{% endblock %}

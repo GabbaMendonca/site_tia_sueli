@@ -1,0 +1,88 @@
+*Conteudo do Site*
+
+Informções Necessarias (Mais Prioripario)
+- Horario de Funcionamento
+- Num de Contato WhatsApp
+- Redes Sociais (Instagram e Facebook)
+- Endereço
+- Nome e CRP
+
+Informções Interessates (Menos Prioripario)
+- Fotos do consultorio
+- Depoimentos
+- Videos de apresentação
+
+
+*Estrutura do Site*
+
+- Banner
+- Sobre Mim
+- Areas de atuação - Produtos
+    Principais aréas de atuação, seria interessante com um pequeno resumo.
+    Ex.: Perapia d Casal, Terapia Individual, Terapia para Crianças
+    Metodologia usada - Estilo de trabalho, abordagem clinica.
+- Fotos do Consultorio
+- Depoimentos
+- Onde Estou
+    Endereço
+    Mapa
+- Contato
+
+Projetos Futuros:
+- Agendar consulta online
+- Ver horarios disponiveis
+
+=====================
+
+Pendencias :
+[] - Mensagem WhatsApp
+[] - Horario de Atendimento
+
+=====================
+
+- Horario de Funcionamento
+- Num de Contato WhatsApp
+- Redes Sociais (Instagram e Facebook)
+- Endereço
+- Nome e CRP
+- Sobre Mim
+- Areas de atuação - Produtos
+    -> Principais aréas de atuação.
+        Ex.: Perapia de Casal, Terapia Individual, Terapia para Crianças
+        Seria interessante com um pequeno resumo.
+    -> Metodologia usada.
+        Estilo de trabalho, abordagem clinica.
+
+
+Endereço
+Rua José Versolato, 111 Torre B sala 924 Centro  São Bernardo do Campo SP
+Cep 09750-730
+
+
+        MENU
+
+        <div class="navigation">
+            <div class="navigation-bar">
+                <span class="menu"></span>
+                <div class="top-menu">
+                    <ul>
+                        <li><a class="active" href="index.html">Home</a></li>
+                        <!-- <li><a href="about.html">Sobre Mim</a></li>
+                        <li><a href="products.html">Produtos</a></li> -->
+                        <!-- <li><a href="404.html">Blog</a></li> -->
+                        <li><a href="{% url 'contato'%}">Onde Estou</a></li>
+                        <div class="clearfix"></div>
+                    </ul>
+                </div>
+                <!-- script for menu -->
+                <script>
+                    $("span.menu").click(function () {
+                        $(".top-menu").slideToggle("slow", function () {
+                            // Animation complete.
+                        });
+                    });
+                </script>
+                <!-- script for menu -->
+                <div class="clearfix"> </div>
+            </div>
+        </div>

@@ -1,0 +1,46 @@
+{%load static%}
+<!-- header-section-starts -->
+<div class="header">
+    <div class="container">
+        <div class="logo">
+            <a href="{% url 'index' %}"><img src="{% static 'images/logo/logo.png'%}" alt=""
+                    style="height: 50px;" /></a>
+        </div>
+        <div class="tollfree">
+            <ul>
+                <li><i class="phone"></i></li>
+                <li>
+                    <p class="call">Telefone :</p>
+                    <p>(11) 9 9999-9999</p>
+                </li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+        <div class="navigation">
+            <div class="navigation-bar">
+                <span class="menu"></span>
+                <div class="top-menu">
+                    <ul>
+                        <li><a class="active" href="{% url 'index' %}">Home</a></li>
+                        <!-- <li><a href="about.html">Sobre Mim</a></li>
+                        <li><a href="products.html">Produtos</a></li> -->
+                        <!-- <li><a href="404.html">Blog</a></li> -->
+                        <li><a href="{% url 'contato'%}">Contato</a></li>
+                        <div class="clearfix"></div>
+                    </ul>
+                </div>
+                <!-- script for menu -->
+                <script>
+                    $("span.menu").click(function () {
+                        $(".top-menu").slideToggle("slow", function () {
+                            // Animation complete.
+                        });
+                    });
+                </script>
+                <!-- script for menu -->
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- header-section-ends -->

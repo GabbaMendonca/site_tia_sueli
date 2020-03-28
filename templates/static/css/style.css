@@ -76,7 +76,8 @@ i.phone{
 	position:relative;
 }
 .navigation-bar{
-	background: #9cbc1f;
+	/* background: #ffb5b5; */
+	background: #ff7878;
 	border-top: 7px solid #272e34;
 	position: absolute;
 	z-index: 999;
@@ -290,8 +291,8 @@ ul.callbacks_tabs.callbacks2_tabs {
 	color: #000000;
 	text-transform: capitalize;
 	font-size: 2.8em;
-	border-bottom: 4px solid #7ebd26;
-	width: 23%;
+	border-bottom: 4px solid #ff7878;
+	width: 45%;
 	padding-bottom: 10px;
 	margin: 0 auto;
 	font-weight: 700;
@@ -912,7 +913,7 @@ h2.style {
 	color: #000000;
 	text-transform: capitalize;
 	font-size: 2.8em;
-	border-bottom: 4px solid #7ebd26;
+	border-bottom: 4px solid #ff7878;
 	width: 21%;
 	padding-bottom: 10px;
 	margin: 0 auto;
@@ -1082,7 +1083,7 @@ a.b-home:hover{
 	}
 	.about-section h3 {
 		font-size: 2.6em;
-		width: 25%;
+		width: 45%;
 		padding-bottom: 8px;
 	}
 	.about-section {
@@ -1178,7 +1179,7 @@ a.b-home:hover{
 		margin-bottom: 1.5em;
 	}
 	.dal{
-	`margin-top:1em;
+	    margin-top:1em;
 	}
 	p.phone {
 		margin: 0px 0 0px 0;
@@ -1215,7 +1216,7 @@ a.b-home:hover{
 	}
 	.about-section h3 {
 		font-size: 2.4em;
-		width: 25%;
+		width: 45%;
 		padding-bottom: 6px;
 	}
 	.about-section h5 {
@@ -1388,7 +1389,7 @@ a.b-home:hover{
 	}
 	.about-section h3 {
 		font-size: 2.2em;
-		width: 27%;
+		width: 45%;
 	}
 	.about-section h5 {
 		font-size: 1.2em;
@@ -1505,7 +1506,7 @@ a.b-home:hover{
 	}
 	.about-section h3 {
 		font-size: 2em;
-		width: 33%;
+		width: 80%;
 	}
 	.feature-accord, .what-we-do {
 		width: 100%;
@@ -1665,9 +1666,9 @@ a.b-home:hover{
 	}
 	.about-section h3 {
 		font-size: 1.7em;
-		width: 43%;
+		width: 80%;
 		padding-bottom: 5px;
-		border-bottom: 3px solid #7ebd26;
+		border-bottom: 3px solid #ff7878;
 	}
 	.about-section h5 {
 		font-size: 1.15em;
@@ -1819,7 +1820,7 @@ a.b-home:hover{
 	.contact-head h2 {
 		font-size: 1.7em;
 		width: 49%;
-		border-bottom: 3px solid #7ebd26;
+		border-bottom: 3px solid #ff7878;
 	}
 	.contact {
 		padding: 0em 0 2em;
